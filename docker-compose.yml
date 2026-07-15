@@ -1,0 +1,18 @@
+services:
+
+  backend:
+    build: .
+    container_name: plate-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    networks:
+      - shared
+
+
+networks:
+  shared:
+    external: true
