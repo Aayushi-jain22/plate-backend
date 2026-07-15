@@ -6,7 +6,11 @@ The application enables users to log meals, track calories and macronutrients ag
 
 The project was developed using Django REST Framework for the backend and React.js for the frontend, with Docker-based local development and deployment support.
 
+## Live URLs
 
+Frontend Live URL: https://zesty-sable-70f48c.netlify.app/
+
+Backend URL:  https://plate-backend-production.up.railway.app/
 
 # Local Setup
 
