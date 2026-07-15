@@ -27,8 +27,9 @@ SECRET_KEY = 'django-insecure-dmilg1wl0pd9w!+496$xenbmnw8*&_p$2p_v+%6emjm^e5_lfs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost:5173",
-                    "*"
+ALLOWED_HOSTS = ["localhost:3000",
+                    "*",
+                    '.railway.app', 'plate-backend-production.up.railway.app'
                 ]
 
 DAILY_GOAL_KCAL = config(
