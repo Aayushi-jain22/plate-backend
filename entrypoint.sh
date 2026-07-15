@@ -21,4 +21,4 @@ for meal in meals:
 print('Seed sync completed')
 "
 
-gunicorn myproject.wsgi:application --bind 0.0.0.0:$PORT
+gunicorn config.wsgi:application --bind 0.0.0.0:$PORT
